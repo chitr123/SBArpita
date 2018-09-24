@@ -8,6 +8,11 @@ import-stylebooks:
     namespace: com.citrix.adc.commontypes
     prefix: cmtypes
     version: "1.0"
+ - 
+    namespace: netscaler.nitro.config
+    prefix: ns
+    version: "10.5"
+  
     
 parameters-default-sources:
   - cmtypes::lbname
